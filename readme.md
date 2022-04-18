@@ -33,7 +33,7 @@ conda activate dvc-ml
 touch setup.py
 ```
 
-paste the below content in the setup.py file and make the necessary changes as per your user ID-
+
 
 ```python
 from setuptools import setup
@@ -124,7 +124,7 @@ stages:
 
 ## STEP 11: run the dvc repro command
 ```bash
-dvc repo
+dvc repro
 ```
 
 ## STEP 12: push the changes to remote repository
