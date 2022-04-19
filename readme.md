@@ -4,7 +4,6 @@
 
 ## STEP 02: intialize a git local repository and connect to remote repository
 
-* open and project folder in VS code then follow below command -
 
 ```bash
 echo "# dvc-ML-demo-AIOps" >> README.md
@@ -19,7 +18,6 @@ git push -u origin main
 ```bash
 touch .gitignore
 ```
-content of the gitignore can be found from reference repository
 
 
 ## STEP 03: create and activate conda environment
@@ -66,7 +64,7 @@ setup(
 touch requirements.txt
 pip install -r requirements.txt
 ```
-content of requirements.txt - Refer the reference repository
+
 
 ## STEP 06: initialize dvc
 ```bash
